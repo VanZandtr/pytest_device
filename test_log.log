@@ -1,6 +1,172 @@
-2025-05-09 11:17:00,512 - tests.test_device - INFO - Test device boots first try...
-2025-05-09 11:17:00,515 - tests.test_device - INFO - Test device requires multiple boots...
-2025-05-09 11:17:00,518 - tests.test_device - INFO - Test device fails to boot...
-2025-05-09 11:17:00,520 - tests.test_device - INFO - Test command before boot...
-2025-05-09 11:17:00,522 - tests.test_device - INFO - Test successful command after boot...
-2025-05-09 11:17:00,525 - tests.test_device - INFO - Test shutdown clears ready state...
+2025-05-09 14:18:19,748 - tests.test_device - INFO - Test device boots first try...
+2025-05-09 14:18:19,749 - src.device - INFO - Boot attempt 1
+2025-05-09 14:18:19,749 - src.device - INFO - Status check 1: READY
+2025-05-09 14:18:19,749 - src.device - INFO - Device ready! Type: FakeMotionSensor
+2025-05-09 14:18:19,751 - tests.test_device - INFO - Test device boots first try...
+2025-05-09 14:18:19,751 - src.device - INFO - Boot attempt 1
+2025-05-09 14:18:19,751 - src.device - INFO - Status check 1: READY
+2025-05-09 14:18:19,751 - src.device - INFO - Device ready! Type: FakeContactSensor
+2025-05-09 14:18:19,753 - tests.test_device - INFO - Test device requires multiple boots...
+2025-05-09 14:18:19,753 - src.device - INFO - Boot attempt 1
+2025-05-09 14:18:19,753 - src.device - INFO - Status check 1: BOOTING
+2025-05-09 14:18:19,853 - src.device - INFO - Status check 2: BOOTING
+2025-05-09 14:18:19,954 - src.device - INFO - Status check 3: BOOTING
+2025-05-09 14:18:20,056 - src.device - INFO - Status check 4: BOOTING
+2025-05-09 14:18:20,157 - src.device - INFO - Status check 5: BOOTING
+2025-05-09 14:18:20,258 - src.device - INFO - Status check 6: BOOTING
+2025-05-09 14:18:20,359 - src.device - INFO - Status check 7: BOOTING
+2025-05-09 14:18:20,465 - src.device - INFO - Status check 8: BOOTING
+2025-05-09 14:18:20,566 - src.device - INFO - Status check 9: BOOTING
+2025-05-09 14:18:20,666 - src.device - INFO - Status check 10: BOOTING
+2025-05-09 14:18:20,767 - src.device - INFO - Boot attempt 2
+2025-05-09 14:18:20,768 - src.device - INFO - Status check 1: BOOTING
+2025-05-09 14:18:20,868 - src.device - INFO - Status check 2: BOOTING
+2025-05-09 14:18:20,969 - src.device - INFO - Status check 3: BOOTING
+2025-05-09 14:18:21,070 - src.device - INFO - Status check 4: BOOTING
+2025-05-09 14:18:21,171 - src.device - INFO - Status check 5: BOOTING
+2025-05-09 14:18:21,272 - src.device - INFO - Status check 6: BOOTING
+2025-05-09 14:18:21,373 - src.device - INFO - Status check 7: BOOTING
+2025-05-09 14:18:21,475 - src.device - INFO - Status check 8: BOOTING
+2025-05-09 14:18:21,576 - src.device - INFO - Status check 9: BOOTING
+2025-05-09 14:18:21,677 - src.device - INFO - Status check 10: BOOTING
+2025-05-09 14:18:21,779 - src.device - INFO - Boot attempt 3
+2025-05-09 14:18:21,779 - src.device - INFO - Status check 1: READY
+2025-05-09 14:18:21,780 - src.device - INFO - Device ready! Type: FakeMotionSensor
+2025-05-09 14:18:21,785 - tests.test_device - INFO - Test device requires multiple boots...
+2025-05-09 14:18:21,785 - src.device - INFO - Boot attempt 1
+2025-05-09 14:18:21,786 - src.device - INFO - Status check 1: BOOTING
+2025-05-09 14:18:21,886 - src.device - INFO - Status check 2: BOOTING
+2025-05-09 14:18:21,988 - src.device - INFO - Status check 3: BOOTING
+2025-05-09 14:18:22,089 - src.device - INFO - Status check 4: BOOTING
+2025-05-09 14:18:22,190 - src.device - INFO - Status check 5: BOOTING
+2025-05-09 14:18:22,291 - src.device - INFO - Status check 6: BOOTING
+2025-05-09 14:18:22,392 - src.device - INFO - Status check 7: BOOTING
+2025-05-09 14:18:22,493 - src.device - INFO - Status check 8: BOOTING
+2025-05-09 14:18:22,594 - src.device - INFO - Status check 9: BOOTING
+2025-05-09 14:18:22,696 - src.device - INFO - Status check 10: BOOTING
+2025-05-09 14:18:22,796 - src.device - INFO - Boot attempt 2
+2025-05-09 14:18:22,797 - src.device - INFO - Status check 1: BOOTING
+2025-05-09 14:18:22,898 - src.device - INFO - Status check 2: BOOTING
+2025-05-09 14:18:22,999 - src.device - INFO - Status check 3: BOOTING
+2025-05-09 14:18:23,100 - src.device - INFO - Status check 4: BOOTING
+2025-05-09 14:18:23,200 - src.device - INFO - Status check 5: BOOTING
+2025-05-09 14:18:23,301 - src.device - INFO - Status check 6: BOOTING
+2025-05-09 14:18:23,402 - src.device - INFO - Status check 7: BOOTING
+2025-05-09 14:18:23,503 - src.device - INFO - Status check 8: BOOTING
+2025-05-09 14:18:23,604 - src.device - INFO - Status check 9: BOOTING
+2025-05-09 14:18:23,705 - src.device - INFO - Status check 10: BOOTING
+2025-05-09 14:18:23,806 - src.device - INFO - Boot attempt 3
+2025-05-09 14:18:23,807 - src.device - INFO - Status check 1: READY
+2025-05-09 14:18:23,807 - src.device - INFO - Device ready! Type: FakeContactSensor
+2025-05-09 14:18:23,812 - tests.test_device - INFO - Test device fails to boot...
+2025-05-09 14:18:23,812 - src.device - INFO - Boot attempt 1
+2025-05-09 14:18:23,812 - src.device - INFO - Status check 1: BOOTING
+2025-05-09 14:18:23,913 - src.device - INFO - Status check 2: BOOTING
+2025-05-09 14:18:24,014 - src.device - INFO - Status check 3: BOOTING
+2025-05-09 14:18:24,115 - src.device - INFO - Status check 4: BOOTING
+2025-05-09 14:18:24,216 - src.device - INFO - Status check 5: BOOTING
+2025-05-09 14:18:24,317 - src.device - INFO - Status check 6: BOOTING
+2025-05-09 14:18:24,423 - src.device - INFO - Status check 7: BOOTING
+2025-05-09 14:18:24,524 - src.device - INFO - Status check 8: BOOTING
+2025-05-09 14:18:24,625 - src.device - INFO - Status check 9: BOOTING
+2025-05-09 14:18:24,726 - src.device - INFO - Status check 10: BOOTING
+2025-05-09 14:18:24,828 - src.device - INFO - Boot attempt 2
+2025-05-09 14:18:24,828 - src.device - INFO - Status check 1: BOOTING
+2025-05-09 14:18:24,929 - src.device - INFO - Status check 2: BOOTING
+2025-05-09 14:18:25,034 - src.device - INFO - Status check 3: BOOTING
+2025-05-09 14:18:25,136 - src.device - INFO - Status check 4: BOOTING
+2025-05-09 14:18:25,236 - src.device - INFO - Status check 5: BOOTING
+2025-05-09 14:18:25,337 - src.device - INFO - Status check 6: BOOTING
+2025-05-09 14:18:25,438 - src.device - INFO - Status check 7: BOOTING
+2025-05-09 14:18:25,539 - src.device - INFO - Status check 8: BOOTING
+2025-05-09 14:18:25,640 - src.device - INFO - Status check 9: BOOTING
+2025-05-09 14:18:25,741 - src.device - INFO - Status check 10: BOOTING
+2025-05-09 14:18:25,842 - src.device - INFO - Boot attempt 3
+2025-05-09 14:18:25,843 - src.device - INFO - Status check 1: BOOTING
+2025-05-09 14:18:25,945 - src.device - INFO - Status check 2: BOOTING
+2025-05-09 14:18:26,046 - src.device - INFO - Status check 3: BOOTING
+2025-05-09 14:18:26,147 - src.device - INFO - Status check 4: BOOTING
+2025-05-09 14:18:26,248 - src.device - INFO - Status check 5: BOOTING
+2025-05-09 14:18:26,349 - src.device - INFO - Status check 6: BOOTING
+2025-05-09 14:18:26,450 - src.device - INFO - Status check 7: BOOTING
+2025-05-09 14:18:26,553 - src.device - INFO - Status check 8: BOOTING
+2025-05-09 14:18:26,655 - src.device - INFO - Status check 9: BOOTING
+2025-05-09 14:18:26,757 - src.device - INFO - Status check 10: BOOTING
+2025-05-09 14:18:26,858 - src.device - ERROR - Device failed to boot after all retries
+2025-05-09 14:18:26,868 - tests.test_device - INFO - Test device fails to boot...
+2025-05-09 14:18:26,869 - src.device - INFO - Boot attempt 1
+2025-05-09 14:18:26,869 - src.device - INFO - Status check 1: BOOTING
+2025-05-09 14:18:26,969 - src.device - INFO - Status check 2: BOOTING
+2025-05-09 14:18:27,071 - src.device - INFO - Status check 3: BOOTING
+2025-05-09 14:18:27,172 - src.device - INFO - Status check 4: BOOTING
+2025-05-09 14:18:27,273 - src.device - INFO - Status check 5: BOOTING
+2025-05-09 14:18:27,374 - src.device - INFO - Status check 6: BOOTING
+2025-05-09 14:18:27,475 - src.device - INFO - Status check 7: BOOTING
+2025-05-09 14:18:27,577 - src.device - INFO - Status check 8: BOOTING
+2025-05-09 14:18:27,678 - src.device - INFO - Status check 9: BOOTING
+2025-05-09 14:18:27,779 - src.device - INFO - Status check 10: BOOTING
+2025-05-09 14:18:27,879 - src.device - INFO - Boot attempt 2
+2025-05-09 14:18:27,880 - src.device - INFO - Status check 1: BOOTING
+2025-05-09 14:18:27,980 - src.device - INFO - Status check 2: BOOTING
+2025-05-09 14:18:28,081 - src.device - INFO - Status check 3: BOOTING
+2025-05-09 14:18:28,182 - src.device - INFO - Status check 4: BOOTING
+2025-05-09 14:18:28,283 - src.device - INFO - Status check 5: BOOTING
+2025-05-09 14:18:28,384 - src.device - INFO - Status check 6: BOOTING
+2025-05-09 14:18:28,484 - src.device - INFO - Status check 7: BOOTING
+2025-05-09 14:18:28,585 - src.device - INFO - Status check 8: BOOTING
+2025-05-09 14:18:28,686 - src.device - INFO - Status check 9: BOOTING
+2025-05-09 14:18:28,787 - src.device - INFO - Status check 10: BOOTING
+2025-05-09 14:18:28,888 - src.device - INFO - Boot attempt 3
+2025-05-09 14:18:28,889 - src.device - INFO - Status check 1: BOOTING
+2025-05-09 14:18:28,989 - src.device - INFO - Status check 2: BOOTING
+2025-05-09 14:18:29,090 - src.device - INFO - Status check 3: BOOTING
+2025-05-09 14:18:29,192 - src.device - INFO - Status check 4: BOOTING
+2025-05-09 14:18:29,292 - src.device - INFO - Status check 5: BOOTING
+2025-05-09 14:18:29,399 - src.device - INFO - Status check 6: BOOTING
+2025-05-09 14:18:29,500 - src.device - INFO - Status check 7: BOOTING
+2025-05-09 14:18:29,601 - src.device - INFO - Status check 8: BOOTING
+2025-05-09 14:18:29,702 - src.device - INFO - Status check 9: BOOTING
+2025-05-09 14:18:29,804 - src.device - INFO - Status check 10: BOOTING
+2025-05-09 14:18:29,905 - src.device - ERROR - Device failed to boot after all retries
+2025-05-09 14:18:29,911 - tests.test_device - INFO - Test command before boot...
+2025-05-09 14:18:29,912 - src.device - ERROR - Attempted to send command to device that is not ready
+2025-05-09 14:18:29,916 - tests.test_device - INFO - Test command before boot...
+2025-05-09 14:18:29,917 - src.device - ERROR - Attempted to send command to device that is not ready
+2025-05-09 14:18:29,920 - tests.test_device - INFO - Test successful command after boot...
+2025-05-09 14:18:29,921 - src.device - INFO - Boot attempt 1
+2025-05-09 14:18:29,921 - src.device - INFO - Status check 1: READY
+2025-05-09 14:18:29,921 - src.device - INFO - Device ready! Type: FakeMotionSensor
+2025-05-09 14:18:29,921 - src.device - INFO - Sending command: PING
+2025-05-09 14:18:29,926 - tests.test_device - INFO - Test successful command after boot...
+2025-05-09 14:18:29,926 - src.device - INFO - Boot attempt 1
+2025-05-09 14:18:29,927 - src.device - INFO - Status check 1: READY
+2025-05-09 14:18:29,927 - src.device - INFO - Device ready! Type: FakeContactSensor
+2025-05-09 14:18:29,927 - src.device - INFO - Sending command: PING
+2025-05-09 14:18:29,929 - src.device - INFO - Boot attempt 1
+2025-05-09 14:18:29,930 - src.device - INFO - Status check 1: READY
+2025-05-09 14:18:29,930 - src.device - INFO - Device ready! Type: FakeMotionSensor
+2025-05-09 14:18:29,931 - tests.test_device - INFO - Testing motion detection...
+2025-05-09 14:18:29,931 - src.device - INFO - Checking motion status
+2025-05-09 14:18:29,931 - src.device - INFO - Checking motion status
+2025-05-09 14:18:29,932 - src.device - INFO - Checking motion status
+2025-05-09 14:18:29,938 - tests.test_device - INFO - Testing motion detection type error on contact sensor...
+2025-05-09 14:18:29,939 - src.device - INFO - Boot attempt 1
+2025-05-09 14:18:29,939 - src.device - INFO - Status check 1: READY
+2025-05-09 14:18:29,939 - src.device - INFO - Device ready! Type: FakeContactSensor
+2025-05-09 14:18:29,939 - src.device - ERROR - Attempted to check motion on non-motion device
+2025-05-09 14:18:29,943 - src.device - INFO - Boot attempt 1
+2025-05-09 14:18:29,943 - src.device - INFO - Status check 1: READY
+2025-05-09 14:18:29,943 - src.device - INFO - Device ready! Type: FakeContactSensor
+2025-05-09 14:18:29,944 - tests.test_device - INFO - Testing contact sensing...
+2025-05-09 14:18:29,945 - src.device - INFO - Checking contact status
+2025-05-09 14:18:29,945 - src.device - INFO - Checking contact status
+2025-05-09 14:18:29,945 - src.device - INFO - Checking contact status
+2025-05-09 14:18:29,949 - tests.test_device - INFO - Testing contact sensing type error on motion sensor...
+2025-05-09 14:18:29,950 - src.device - INFO - Boot attempt 1
+2025-05-09 14:18:29,950 - src.device - INFO - Status check 1: READY
+2025-05-09 14:18:29,950 - src.device - INFO - Device ready! Type: FakeMotionSensor
+2025-05-09 14:18:29,951 - src.device - ERROR - Attempted to check contact on non-contact device
+2025-05-09 14:18:29,956 - src.device - INFO - Boot attempt 1
+2025-05-09 14:18:29,957 - src.device - INFO - Status check 1: READY
+2025-05-09 14:18:29,957 - src.device - INFO - Device ready! Type: FakeContactSensor
+2025-05-09 14:18:29,958 - tests.test_device - INFO - Testing invalid contact state...
