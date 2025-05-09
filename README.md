@@ -124,7 +124,7 @@ elif state == "CLOSED":
 ```
 ## Example Output
 
-```bash
+```python
 $ python -m pytest --log-cli-level=INFO -v
 ========================================================================================================================================================= test session starts ========================================================================================================================================================== 
 platform win32 -- Python 3.13.3, pytest-8.3.5, pluggy-1.5.0 -- C:\Users\vanzraym\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\python.exe
